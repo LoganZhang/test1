@@ -1,0 +1,35 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "angular:angular",
+      "constraint": "1.4.1"
+    },
+    {
+      "package": "minimongo",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "observe-sequence",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "dburles:mongo-collection-instances",
+      "constraint": "0.3.3"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/urigo_angular.js",
+      "length": 266986,
+      "offset": 0,
+      "servePath": "/packages/urigo_angular.js",
+      "sourceMap": "web.cordova/packages/urigo_angular.js.map"
+    }
+  ]
+}

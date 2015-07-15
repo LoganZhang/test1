@@ -1,0 +1,40 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "CollectionExtensions"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "mongo",
+      "constraint": "1.0.6"
+    },
+    {
+      "package": "tracker",
+      "constraint": "1.0.2"
+    },
+    {
+      "package": "minimongo",
+      "constraint": "1.0.3"
+    },
+    {
+      "package": "accounts-base",
+      "constraint": "1.1.1",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/lai_collection-extensions.js",
+      "length": 11144,
+      "offset": 0,
+      "servePath": "/packages/lai_collection-extensions.js",
+      "sourceMap": "web.cordova/packages/lai_collection-extensions.js.map"
+    }
+  ]
+}

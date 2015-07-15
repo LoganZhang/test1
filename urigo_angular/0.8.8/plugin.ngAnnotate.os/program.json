@@ -1,0 +1,12 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/ngAnnotate/node_modules",
+      "sourceMap": "packages/ngAnnotate_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ngAnnotate_plugin.js"
+    }
+  ]
+}

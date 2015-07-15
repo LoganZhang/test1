@@ -1,0 +1,36 @@
+{
+  "name": "urigo:angular",
+  "summary": "The simplest no-conflict way to use AngularJS with Meteor, Meteorite and Atmosphere Smart Packages.",
+  "version": "0.9.2",
+  "isTest": false,
+  "plugins": [
+    {
+      "name": "compileAngularTemplates",
+      "arch": "os",
+      "path": "plugin.compileAngularTemplates.os/program.json"
+    },
+    {
+      "name": "ngAnnotate",
+      "arch": "os",
+      "path": "plugin.ngAnnotate.os/program.json"
+    }
+  ],
+  "unibuilds": [
+    {
+      "kind": "main",
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "kind": "main",
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "kind": "main",
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

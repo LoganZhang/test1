@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "minimongo",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "observe-sequence",
+      "constraint": "1.0.1"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/urigo_angular.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/urigo_angular.js",
+      "sourceMap": "os/packages/urigo_angular.js.map"
+    }
+  ]
+}
