@@ -1,0 +1,26 @@
+{
+  "isopack-1": {
+    "name": "angular:angular",
+    "summary": "AngularJS (official) release. For full solution: http://angular-meteor.com/",
+    "version": "1.4.2",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

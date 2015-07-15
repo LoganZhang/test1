@@ -1,0 +1,24 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery",
+      "constraint": "1.11.3_2",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/angular_angular.js",
+      "length": 3358822,
+      "offset": 0,
+      "servePath": "/packages/angular_angular.js",
+      "sourceMap": "web.browser/packages/angular_angular.js.map"
+    }
+  ]
+}
